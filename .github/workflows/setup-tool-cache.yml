@@ -14,7 +14,7 @@ jobs:
           java-version: 11
       ### Set up Fortify ScanCentral Client ###
       - name: Download Fortify ScanCentral Client
-        uses: fortify/gha-setup-scancentral-client@v1   
+        uses: fortify/gha-setup-scancentral-client@v2   
         with:
           version: 21.2.0
       - name: Archive tool cache
